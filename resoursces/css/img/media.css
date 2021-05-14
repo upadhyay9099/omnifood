@@ -1,0 +1,142 @@
+@media only screen and (max-width:1200px) {
+    
+    
+.hero-text-box{
+
+    position: absolute;
+    width: 100%;
+    padding: 0 5%;
+}
+.row{
+
+    padding: 0 2%;
+}    
+
+}
+@media only screen and (max-width:1023px) {
+
+    body{
+
+        font-size: 18px;
+    }
+    section{
+
+        padding: 60px 0;
+    }
+    .long-copy{
+
+        width:80%;
+        margin-left:10%;
+    
+    }
+    .app-screen{
+
+        width: 50%;
+    }
+    .icon{
+
+        display: inline-block;
+        width: 15px;
+        text-align: center;
+        color: orangered;
+        font-size: 120%;
+        line-height: 100%;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+    h2{
+        font-size: 150%;
+        word-spacing:1px;
+        text-align: center;
+        margin-bottom:30px;
+    
+    }
+    .ul{
+
+        font-size: 95%;
+    }
+    .btn,input[type=submit]{
+
+        display: inline-block;
+        padding: 10px 20px;
+        font-weight: 200;
+        text-decoration: none;
+        border-radius: 200px;
+        color: white;
+        text-align: center;
+    
+    }
+    .btn-ghost{
+
+        border: 1px solid orangered;
+        color: orangered;
+        margin-top: 3%;
+        padding: 10px 30px;
+        text-align: center;
+    }
+
+}
+footer{
+
+    background-color: rgb(39, 37, 37);
+    font-size: 80%;
+}
+h2{ font-size: 120%;}
+@media only screen and (max-width:767px) {
+    
+    body{ font-size: 16px;}
+    .row,.hero-text-box{
+
+        padding: 0 4% ;
+
+    }
+    .col{
+
+        width:100%;
+    }
+    footer{
+
+        background-color: rgb(39, 37, 37);
+        font-size: 70%;
+    }
+    
+    .app-screen{
+
+        width: 50%;
+        margin-right: 22%;
+        
+    }
+  /*  .main-nav{
+
+        display: none;
+    } */
+
+    .mobile-nav-icon{
+
+        display: inline-block;
+    }
+
+    .icon-mobi{
+
+        display: block;        
+    }
+
+    
+ 
+}
+@media only screen and (max-width:480px) {
+
+    
+    .social-symbol{
+
+        font-size: 50%;
+        list-style: none;
+        float: right;
+    }
+    h2{ 
+        font-size: 90%;
+        
+    }
+    
+}
+
